@@ -1,0 +1,3 @@
+-->A smart home application has two modes: admin mode and guest mode. 
+-->Admin mode allows you to control RGB, servo motor, air conditioning according to the ambient temperature, TV, and 4 rooms on and off.
+-->guest mode, allow 4 rooms on/off.
