@@ -48,10 +48,6 @@ void SMART_HOMESlaveRunnable(void)
 	while(1)
 	{
 		TempValue=TEMP_Read();
-		cli();
-		LCD_SetCurser(1,6);
-		LCD_WriteNumber(Temp);
-		sei();
 		if(Temp<(TempValue/10) && AirFlag==1)
 		{
 			DIO_WritePin(AIR_CONDITIONING,ROOM_STATUS_ON);
